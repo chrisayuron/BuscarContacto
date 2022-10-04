@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+    <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+        <div class="name__search form-control">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+         </div>
+         <div class="property__search form-control">
+            <label for="propiedad">Propiedad</label>
+            <select name="propiedad" id="propiedad">
+                <option value="ninguno"></option>
+                <option value="todos">Todos</option>
+                <option value="apellido">Apellido</option>
+                <option value="numero">Número</option>
+                <option value="gustos">Gustos</option>
+            </select>
+        </div>
+        <button id="btn" class="btn">BUSCAR</button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-72VTyk92KAa_BmI-kPpE8PcWVa5yeyyCijw37BzmTECSOW7YBTajLxF8E_lHw9dryM&usqp=CAU" alt="persona incognito" class="foto">
+    </div>
+        <div id="result" class="result"></div>
+    </div>
+    
+  
+
+    <script src="./main.js"></script>
+</body>
+</html>
